@@ -1,10 +1,10 @@
-import pandas as pd
+import  pandas as pd
 from utilities import Utilities
 import matplotlib
 
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-
+import numpy as np
 
 def get_basic_stats(dfname):
     print("Shape of dataframe is " + str(dfname.shape))
